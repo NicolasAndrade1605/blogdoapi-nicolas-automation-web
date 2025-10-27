@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://blog.agibank.com.br/",
+    "keywords": {
+        "valid": "finanças",
+        "invalid": "xyz123abc"
+    },
+    "expectedTitle": "Finanças",
+    "articleExpectedTitle": "Como organizar suas finanças pessoais em 5 passos"
+}

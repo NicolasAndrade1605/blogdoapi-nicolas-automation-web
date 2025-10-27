@@ -1,0 +1,30 @@
+{
+  "name": "blogapi-nicolas-automation-web",
+  "version": "1.0.0",
+  "description": "Projeto de automação para a API de Blog utilizando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "open": "npx cypress open",
+    "verify": "npx cypress verify",
+    "allure:generate": "allure generate --clean allure-results --output allure-report",
+    "allure:open": "allure open allure-report",
+    "ci:run": "npm ci && npm run test"
+  },
+  "keywords": [],
+  "author": "Nicolas Andrade",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.1",
+    "cypress": "^15.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/e2e/step-definitions"
+  }
+}
