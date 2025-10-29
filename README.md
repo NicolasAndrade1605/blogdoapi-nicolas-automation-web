@@ -40,3 +40,7 @@ Garantir que as principais funcionalidades de pesquisa e leitura de artigos do B
 - https://www.linkedin.com/in/nicolas-andrade-bb1a02192/
 
 ## Links dos outros repositorios do Desafio
+
+1. **WEB** | https://github.com/NicolasAndrade1605/blogdoapi-nicolas-automation-web.git
+2. **API** | https://github.com/NicolasAndrade1605/dogapi-nicolas-automation-api.git
+3. **Performance** | https://github.com/NicolasAndrade1605/blazedemo-performance-tests.git
